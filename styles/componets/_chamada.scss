@@ -1,0 +1,26 @@
+@import "../abstract/variaveis";
+
+#chamada {
+  text-align: center;
+  margin: 5px;
+  img {
+    width: 400px;
+  }
+  .text {
+    margin: 0 auto;
+    width: 500px;
+    h3 {
+      font-size: $tamanho-do-texto/2;
+      font-weight: bold;
+    }
+    h4 {
+      font-size: $tamanho-do-texto/3;
+      margin-top: 0.5rem;
+      font-weight: 500;
+    }
+    p {
+      margin-top: 1rem;
+      font-weight: 300;
+    }
+  }
+}
